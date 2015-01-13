@@ -93,4 +93,17 @@ form.download button {
     margin-right: -140px;
     margin-top: 100px;
     font-size: 12px;
-}   
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.azure-logo {
+    height: 15px;
+    margin-right: 8px;
+    vertical-align: top;
+}
