@@ -53,6 +53,10 @@ body {
     width: 22px;
 }
 
+.social-networks img.github {
+    width: 24px;
+}
+
 .section-title {
     font-style: italic;
     font-size: 21px;
@@ -106,4 +110,11 @@ footer {
     height: 15px;
     margin-right: 8px;
     vertical-align: top;
+}
+
+.github-fork {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    border: 0;
 }
