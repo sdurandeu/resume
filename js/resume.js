@@ -12,13 +12,20 @@ function getAge(dateString) {
   return age;
 };
 
+function printConsoleMessage() {
+  console.log(Array(100).join("-"));
+  console.log("HEY!! What are you looking at? If are curious about how my code looks like, let's talk :)");
+  console.log(Array(100).join("-"));
+}
+
 $(function () {
+  printConsoleMessage();
 
-    $(".bs-tooltip").tooltip();
+  $(".bs-tooltip").tooltip();
 
-    $("#top-link").click(function () {
-      $("body").animate({ scrollTop: $(".header").offset().top }, "slow");
-    });
+  $("#top-link").click(function () {
+    $("body").animate({ scrollTop: $(".header").offset().top }, "slow");
+  });
 
-    $("#years").html(getAge($("[itemprop=birthDate]").attr("content")));
+  $("#years").html(getAge($("[itemprop=birthDate]").attr("content")));
 });
