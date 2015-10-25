@@ -74,6 +74,10 @@ body {
     margin-bottom: 12px;
 }
 
+.item-subtitle-small {
+    font-weight: 600;
+}
+
 .item-period {
     border: 1px solid #ddd;
     padding: 2px 5px;
