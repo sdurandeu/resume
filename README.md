@@ -6,7 +6,7 @@ HTML5/js only page. Using Bootstrap 2.3.2.
  - Age calculation
  - Google Analytics
  - Tooltip (`class="bs-tooltip"`)
- - CDN
+ - jQuery and Bootstrap from CDN
 
 #### TODO:
  - Migrate to Bootstrap 3 and add responsive layout
