@@ -1,66 +1,39 @@
 body {
-    padding: 20px 0px 20px 0px;
     background-color: #808080;
 }
 
+a {
+  color: #08c;
+}
+
+a:hover {
+  color: #005580;
+}
+
 .container {
-    background-color: #fff;
-    padding: 40px;
-    box-shadow: 2px 2px 5px #000;
+  background-color: #fff;
 }
 
 .header {
-    padding: 30px;
-    background-color: #eee;
-    margin-bottom: 30px;
+  background-color: #eee;
 }
 
-.me-image {
-    width: 120px;
-}
-
-.name {
-    margin-top: 30px;
-}
-
-.details {
-    margin-top: 30px;
+.personal-details {
+  font-size: 0.9rem;
 }
 
 .languages .language-name {
-    width: 80px;
-    font-weight: bold;
-    float: left;
+  width: 80px;
+  font-weight: bold;
+  float: left;
 }
 
-.italics {
-    font-style: italic;
-}
-
-.social-networks {
-    margin-top: 10px;
-}
-
-.social-networks a {
-    margin-right: 4px;
-}
-
-.social-networks img {
-    width: 20px;
-}
-
-.social-networks img.skype {
-    width: 22px;
-}
-
-.social-networks img.github {
-    width: 24px;
+.external-links {
+  line-height: 1.7rem;
 }
 
 .section-title {
-    font-style: italic;
     font-size: 21px;
-    font-weight: 200;
 }
 
 .item-title {
@@ -79,7 +52,7 @@ body {
 }
 
 .item-period {
-    border: 1px solid #ddd;
+    background-color: #eee;
     padding: 2px 5px;
 }
 
@@ -104,21 +77,13 @@ form.download button {
 }
 
 footer {
-    margin-top: 10px;
-    font-size: 12px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-.azure-logo {
-    height: 15px;
-    margin-right: 8px;
-    vertical-align: top;
+  font-size: 12px;
+  text-align: center;
 }
 
 .github-fork {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
+    position: absolute;
+    top: 0;
+    left: 0;
     border: 0;
 }
