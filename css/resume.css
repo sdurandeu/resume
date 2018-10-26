@@ -10,6 +10,10 @@ a:hover {
   color: #005580;
 }
 
+h6 {
+  font-weight: 600;
+}
+
 .container {
   background-color: #fff;
 }
@@ -32,12 +36,7 @@ a:hover {
   line-height: 1.7rem;
 }
 
-.section-title {
-    font-size: 21px;
-}
-
 .item-title {
-    font-size: 17px;
     color: #2e4dbf;
     font-weight: 600;
 }
@@ -49,6 +48,10 @@ a:hover {
 
 .item-subtitle-small {
     font-weight: 600;
+}
+
+.company-description {
+  font-size: 0.85rem;
 }
 
 .item-period {
