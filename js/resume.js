@@ -26,10 +26,6 @@
 
     $(".bs-tooltip").tooltip();
 
-    $("#top-link").click(function () {
-      $("body").animate({ scrollTop: $(".header").offset().top }, "slow");
-    });
-
     $("#years").html(getAge($("[itemprop=birthDate]").attr("content")));
   });
 

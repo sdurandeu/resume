@@ -26,10 +26,11 @@ h6 {
   font-size: 0.9rem;
 }
 
-.languages .language-name {
-  width: 80px;
-  font-weight: bold;
-  float: left;
+@media (min-width: 992px) {
+  .personal-details {
+      padding-left: 6rem;
+      padding-right: 0rem;
+  }
 }
 
 .external-links {
@@ -37,17 +38,17 @@ h6 {
 }
 
 .item-title {
-    color: #2e4dbf;
-    font-weight: 600;
+  font-weight: 600;
+  color: #08c;
 }
 
 .item-subtitle {
-    font-weight: 600;
-    margin-bottom: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
 .item-subtitle-small {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .company-description {
@@ -55,38 +56,20 @@ h6 {
 }
 
 .item-period {
-    background-color: #eee;
-    padding: 2px 5px;
-}
-
-.item-detail-list > li {
-    margin-bottom: 9px;
+  background-color: #eee;
+  padding: .2rem .2rem;
 }
 
 .inner-separator {
-    border-bottom: 1px dashed #ddd;
-    margin: 10px 0 20px 0;
+  border-bottom: 1px dashed #ddd;
+  margin: 10px 0 20px 0;
 }
 
-form.download {
-    float: right;
-}
-
-form.download button {
-    float: right;
-    margin-right: -140px;
-    margin-top: 100px;
-    font-size: 12px;
-}
-
-footer {
-  font-size: 12px;
+.text-footer {
   text-align: center;
+  color: #ffffffde;
 }
 
-.github-fork {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
+.text-footer a {
+  color: #a0d4ef
 }
