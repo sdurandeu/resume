@@ -7,5 +7,4 @@ HTML5/js only page. Using Bootstrap 4. Deployed to [sebastiandurandeu.com](https
  - Google Analytics
  - Tooltip (`class="bs-tooltip"`)
  - jQuery and Bootstrap from CDN
-
-#### TODO:
+ - Printer friendly

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link href="css/resume.css" rel="stylesheet" media="screen">
+  <link href="css/resume.css" rel="stylesheet" media="screen, print">
   <title>Sebastian Durandeu | CV</title>
   <meta name="description" content="Sebastian Durandeu CV. Senior Software Engineer. About me. Experience. Education. Skills. Languages. Misc.">
   <base target="_blank">
@@ -22,7 +22,7 @@
       <div class="row">
         <!-- Picture -->
         <div class="col-md-2">
-          <img src="img/me.jpg" alt="me" class="img-thumbnail" />
+          <img src="img/me.jpg" alt="me" class="img-thumbnail no-print" />
         </div>
 
         <!-- Name -->
@@ -43,14 +43,16 @@
             <div><i class="bs-tooltip fas fa-mobile-alt fa-lg" title="Mobile Phone"></i>&nbsp;<span itemprop="telephone">+44 07427 719875</span></div>
             <div><i class="bs-tooltip fas fa-envelope fa-lg" title="Email"></i>&nbsp;<a href="mailto:sebastian.durandeu@gmail.com"><span itemprop="email">sebastian.durandeu@gmail.com</span></a></div>
             <div><i class="bs-tooltip fab fa-github fa-lg" title="GitHub"></i>&nbsp;<a href="https://github.com/sdurandeu">sdurandeu</a></div>
-            <div><i class="bs-tooltip fab fa-twitter fa-lg" title="Twitter"></i>&nbsp;<a href="https://twitter.com/sebadurandeu">@sebadurandeu</a></div>
+            <div><i class="bs-tooltip fab fa-twitter fa-lg" title="Twitter"></i>&nbsp;<a href="https://twitter.com/sebadurandeu">sebadurandeu</a></div>
             <div><i class="bs-tooltip fab fa-linkedin fa-lg" title="LinkedIn"></i>&nbsp;<a href="https://www.linkedin.com/in/sebastiandurandeu">sebastiandurandeu</a></div>
-            <div><i class="bs-tooltip fas fa-file-download fa-lg"></i>&nbsp;<a href="#">Download as PDF</a></div>
+            <div><i class="bs-tooltip fas fa-file-download fa-lg"></i>&nbsp;<a href="/sebastian.durandeu.pdf">Download as PDF</a></div>
           </div>
         </div>
 
       </div>
     </div>
+
+    <hr class="in-print"/>
 
     <div class="row">
       <h5 class="col-md-2">About Me</h5>
@@ -75,8 +77,8 @@
         <div class="mb-3 company-description text-muted">Software consultancy firm specialized in helping companies adopt emerging technologies</div>
         <h6>Principal Software Engineer (London, UK)</h6>
         <p class="item-detail-list">
-          Managed remotely a development team (5) to migrate a core statistics system from an US sports company to the cloud (Microsoft Azure). Project design and planning.
-          Main interface with the customer with regular on-site meetings for reporting to management.
+          Managed remotely a development team (5) to re-engineer a core statistics system from an US sports company and migrate it to the cloud (Microsoft Azure). Project design and planning.
+          Main interface with the customer with regular on-site meetings for progress reporting.
           1-on-1 meetings with developers for performance evaluation and mentoring.
         </p>
 
@@ -85,11 +87,11 @@
         <!-- Vinti -->
         <div class="item-period float-right">Apr 2016 - Mar 2017</div>
         <h5 class="item-title mb-0">Vinti</h5>
-        <div class="mb-3 company-description text-muted">FinTech mobile app to solve everyday payments with a smart, user-friendly approach (more info in Spanish <a href="https://www.infobae.com/sociedad/2016/09/24/el-argentino-que-creo-una-app-para-pagar-y-recibir-dinero-de-amigos-por-celular/">here</a> and <a href="https://www.infotechnology.com/entreprenerds/Esta-app-argentina-te-permite-enviar-dinero-a-tus-amigos-a-traves-del-celular-20151214-0004.html">here</a>)</div>
+        <div class="mb-3 company-description text-muted">FinTech startup - mobile app to solve everyday payments with a smart, user-friendly approach (more info in Spanish <a href="https://www.infobae.com/sociedad/2016/09/24/el-argentino-que-creo-una-app-para-pagar-y-recibir-dinero-de-amigos-por-celular/">here</a> and <a href="https://www.infotechnology.com/entreprenerds/Esta-app-argentina-te-permite-enviar-dinero-a-tus-amigos-a-traves-del-celular-20151214-0004.html">here</a>)</div>
         <h6>Lead Engineer (Buenos Aires, Argentina)</h6>
         <p>
           Joined the co-founders as first employee to build and grow the payments platform. Full-stack engineer in charge of the Cordova/Ionic mobile
-          app with a Node.js backend. Infrastructure and security. Responsibilities also included product design, customer support and sales.
+          app with a Node.js backend hosted in Amazon Web Services. Infrastructure design, maintenance and security audits. Also worked on product design, customer support and sales.
         </p>
 
         <div class="inner-separator"></div>
@@ -100,43 +102,44 @@
         <div class="mb-3 company-description text-muted">Software consultancy firm specialized in helping companies adopt emerging technologies</div>
         <h6 class="item-subtitle">Principal Software Engineer (Buenos Aires, Argentina)</h6>
         <ul>
-          <li class="mb-2">Member of the Delivery team, in charge of resource allocation, project forecasting and monitoring. Performance
-            reviews and mentoring of developers. Assist account managers with developing new opportunities. Pre-sales
-            activities.</li>
+          <li class="mb-2">Member of the Delivery team, in charge of resource allocation, project forecasting and monitoring. Recruiting and performance
+            reviews of developers. Support account managers with new opportunities (pre-sales).</li>
           <li class="mb-2">Technical lead for different projects, across a 2.5-year timespan, developing and maintaining one of Microsoft's core marketing and documentation sites.
-            The site has strong scalability and availability requirements and runs end-to-end using Microsoft Azure cloud service.
-            This included developing a documentation publishing and maintenance workflow and continuous deployment infrastructure.</li>
+            The site had strong scalability and availability requirements and runs end-to-end using Microsoft Azure cloud service.
+            Project scope included developing a documentation publishing and maintenance workflow and a continuous deployment infrastructure.</li>
           <li>Worked on the front-end for a new videos platform for SharePoint Online Services (now Office 365).
             The front-end included both a SharePoint app and a Windows 8 app and interacted with the SharePoint APIs.</li>
         </ul>
 
         <h6>Lead Software Engineer (Redmond, US)</h6>
         <ul>
-          <li class="mb-2">3 months on-site project at Microsoft working in the engineering team of the <a href="https://azure.microsoft.com/en-us/marketplace/application-services/">Azure Marketplace</a>. Developed a continuous testing infrastructure based on Selenium and the TeamCity API for validating partners API implementations.</li>
+          <li class="mb-2">3 months on-site at Microsoft headquarters working in the engineering team of the <a href="https://azure.microsoft.com/en-us/marketplace/application-services/">Azure Marketplace</a>.
+            Developed a continuous testing infrastructure based on Selenium and the TeamCity API to validate partners' listings and integrations.
+          </li>
 
-          <li>Helped Microsoft internal teams create and deliver
-            <abbr class="bs-tooltip"
-              title="central talk of conference">keynote demos</abbr> to be presented live for thousands attendees for the //BUILD/ 2012 and 2013 developer conferences
-              (videos: <a href="https://channel9.msdn.com/Events/Build/2012/1-002">Bing Platform Demos by Gurdeep Singh Pall</a>
-                - <a href="https://channel9.msdn.com/Events/Build/2013/1-001">Windows Azure Demos by Scott Guthrie</a>).</li>
+          <li>Helped Microsoft internal teams create and deliver <abbr class="bs-tooltip" title="central talk of conference">keynote demos</abbr> to be presented live for thousands of attendees during the <a href="https://channel9.msdn.com/Events/Build/2012/1-002">//BUILD/ 2012</a> and <a href="https://channel9.msdn.com/Events/Build/2013/1-001">2013</a> developer conferences.
+              Provided support to presenters from the backstage.
+          </li>
         </ul>
 
-        <h6>Lead Software Engineer (Buenos Aires, Argentina)</h6>
+        <h6>Software Engineer (Buenos Aires, Argentina)</h6>
         <ul>
-        <li class="mb-2">Technical lead for multiple projects for Microsoft Developer and Platform Evangelism (DPE) Division to create content
-          for evangelizing Microsoft latest development technologies and frameworks. Mainly around the Microsoft Azure Platform
-          and the Microsoft Web Stack. Some of these projects involved writing technical guidance, that shows how to implement
+        <li class="mb-2">Create content for Microsoft Developer and Platform Evangelism (DPE) Division
+          for evangelizing Microsoft latest development technologies and frameworks (mainly around the Microsoft Azure Platform
+          and the Microsoft Web Stack). Some of these projects involved writing technical guidance, that shows how to implement
           common scenarios and get to working solutions (like the <a href="https://github.com/Azure-Readiness/MicrosoftAzureTrainingKit">Microsoft Azure Training Kit</a>).
           Others involved creating reusable content, like APIs and toolkits, to help the developer community adopt new
-          technologies and frameworks (like <a href="https://archive.codeplex.com/?p=dinnernow">DinnerNow</a>
-          or an OData API for Visual Studio Team Foundation Service).</li>
+          technologies and frameworks (examples are <a href="https://archive.codeplex.com/?p=dinnernow">DinnerNow</a>
+          or an <a href="https://blogs.msdn.microsoft.com/briankel/2013/01/24/bringing-odata-to-team-foundation-service/">OData API for Visual Studio Team Foundation Service</a>).</li>
 
-        <li>Leaded projects for GlaxoSmithKline (GSK), helping in the development of a company-wide identity platform,
+        <li>Help a top pharmaceutical company develop a company-wide identity platform,
           based on claims-based identity and Microsoft ADFS (Active Directory Federation Services).</li>
         </ul>
 
-        <h6 class="item-subtitle">Software Engineer &amp; Technical Writer (Buenos Aires, Argentina)</h6>
-        <p>Engineer for multiple projects creating technical guidance for Microsoft latest development technologies and frameworks.</p>
+        <h6 class="item-subtitle">Technical Writer and Developer (Buenos Aires, Argentina)</h6>
+        <ul>
+            <li>Created technical guidance (hands-on labs) for Microsoft latest development technologies and frameworks.</li>
+        </ul>
 
         <!-- Huenei -->
         <div class="inner-separator"></div>
@@ -161,7 +164,7 @@
         <div class="mb-1 company-description text-muted">Premium Freelance Platform</div>
         <div>
           Completed the recruiting process and joined the platform, but did not apply for any project due to lack
-          of availability. Profile can be found <a href="https://www.toptal.com/resume/sebastian-durandeu">here</a>.</li>
+          of availability. Profile <a href="https://www.toptal.com/resume/sebastian-durandeu">here</a>.</li>
         </div>
 
         <div class="inner-separator"></div>
@@ -170,20 +173,20 @@
         <div class="mb-1 company-description text-muted">TiendaNube provides a complete e-commerce platform for small retailers (similar to Shopify or Magento)</div>
         <div>
           Designed and developed an app that allows users to add a rating and comments widget to their store.
-          The app can be installed through the <a href="https://www.tiendanube.com/tienda-aplicaciones-nube">platform app store</a> for a monthly fee.
-          It is developed in Node.js (Express) and MongoDB, hosted in AWS and available both in Spanish and Portuguese.
+          The app can be installed through the <a href="https://www.tiendanube.com/tienda-aplicaciones-nube">app store</a> for a monthly fee and is available both in Spanish and Portuguese.
+          It is developed in Node.js (Express) and MongoDB and hosted in Amazon Web Services.
         </div>
 
         <div class="inner-separator"></div>
 
-        <div class="font-weight-bold">Technical Book Reviewer</div>
+        <div class="item-title">Technical Book Reviewer</div>
         <div>Reviewed technical books for Packt Publishing: <a href="https://www.packtpub.com/virtualization-and-cloud/microsoft-azure-storage-essentials">Azure Storage Essentials</a>
           and <a href="https://www.packtpub.com/virtualization-and-cloud/implementing-azure-solutions">Implementing Azure Solutions</a>.</div>
 
         <div class="inner-separator"></div>
 
-        <div class="font-weight-bold">Blogs</div>
-        <div><a href="https://sebastiandurandeu.wordpress.com">Personal Blog in Spanish including software development and other stuff (Deprecated)</a></div>
+        <div class="item-title"><a href="https://sebastiandurandeu.wordpress.com">Blog</a></div>
+        <div>Personal blog in Spanish including software development and other stuff (Deprecated)</div>
       </div>
     </div>
 
@@ -193,9 +196,9 @@
       <h5 class="col-md-2">Education</h5>
       <div class="col-md-10">
         <div class="item-period float-right">2004 - 2011</div>
-        <div class="item-title"><a href="https://www.fi.uba.ar/es/node/211">Software Engineer</a></div>
+        <h5 class="item-title">Software Engineer</h5>
         <div class="item-subtitle">University of Buenos Aires - Grade +8/10</div>
-        <div>One year as assistant teacher in <em>Data Organization</em> class. Some topics covered by the subject included data
+        <div>One year as teaching assistant in <em>Data Organization</em> class. Some topics covered by the subject included data
             organization structures and algorithms (B-trees, Hashes, etc.), text retrieval engines and data compression.
         </div>
       </div>
@@ -206,14 +209,14 @@
     <div class="row">
       <h5 class="col-md-2">Skills</h5>
       <div class="col-md-10">
-        <p>The technologies and frameworks I've worked most with:</p>
+        <p>The technologies and frameworks I've worked most with include:</p>
         <ul>
           <li>.NET Framework and the Microsoft Web Stack (ASP.NET MVC, Entity Framework, Web Api, etc.)</li>
           <li>Cloud Platforms and Services (Microsoft Azure and Amazon Web Services)</li>
           <li>Web standards (HTTP, REST, HTML5, etc.)</li>
-          <li>Database systems (SQL Server, Analysis Services, MongoDB, etc.)</li>
           <li>Javascript and Node.js</li>
           <li>Hybrid mobile apps (Cordova, Ionic, etc.)</li>
+          <li>Database systems (SQL Server, MySQL, MongoDB, SQL Server Analysis Services, etc.)</li>
           <li>Continuous Integration and Delivery automation (TeamCity, Selenium, PowerShell, etc.)</li>
         </ul>
       </div>
@@ -252,7 +255,7 @@
 
   </div>
 
-  <footer class="text-footer"><small><i class="fab fa-github-alt mr-1 mt-2 fa-lg" title="GitHub"></i>Powered by GitHub Pages (see code <a href="https://github.com/sdurandeu/resume">here</a>)</small></footer>
+  <footer class="text-footer no-print"><small><i class="fab fa-github-alt mr-1 mt-2 fa-lg" title="GitHub"></i>Powered by GitHub Pages (see code <a href="https://github.com/sdurandeu/resume">here</a>)</small></footer>
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -1,5 +1,5 @@
 body {
-    background-color: #808080;
+  background-color: #808080;
 }
 
 a {
@@ -24,13 +24,6 @@ h6 {
 
 .personal-details {
   font-size: 0.9rem;
-}
-
-@media (min-width: 992px) {
-  .personal-details {
-      padding-left: 6rem;
-      padding-right: 0rem;
-  }
 }
 
 .external-links {
@@ -72,4 +65,33 @@ h6 {
 
 .text-footer a {
   color: #a0d4ef
+}
+
+.in-print, .in-print * {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .personal-details {
+    padding-left: 6rem;
+    padding-right: 0rem;
+  }
+}
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
+
+  .in-print, .in-print * {
+    display: block;
+  }
+
+  .personal-details {
+    padding: 0;
+  }
+
+  .shadow-sm {
+    box-shadow: none !important;
+  }
 }
