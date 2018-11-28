@@ -94,4 +94,13 @@ h6 {
   .shadow-sm {
     box-shadow: none !important;
   }
+
+  .header {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .container {
+    padding: 0 !important;
+  }
 }
